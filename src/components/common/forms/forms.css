@@ -1,0 +1,29 @@
+.text-input{
+    width: 100%;
+    background: #fff;
+    outline: none;
+    padding: 0.3rem 0.5rem;
+    border:none;
+    border: 1px solid #ddd;
+    border-radius: 0.15rem;
+    font-size: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.text-input:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.text-input:focus {
+    background: #f4f4f4;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/* you can make up upload button and sample style by using stylesheets */
+.ant-upload-select-picture-card i {
+    font-size: 32px;
+    color: #999;
+  }
+  
+  .ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: #666;
+  }

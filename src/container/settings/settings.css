@@ -1,0 +1,32 @@
+.setting-wrapper{
+    /* background: #fff; */
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow:0 2px 12px 1px rgb(155, 153, 153)
+}
+.jumpstart-box-dnd{
+    /* background: #fff; */
+    color: #666 !important;
+    width: 500px;
+    margin: 0.4rem;
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+    box-shadow:0 2px 12px 1px rgb(155, 153, 153);
+    cursor: pointer;
+}
+.jumpstart-box-dnd:hover{
+    background: rgb(226, 225, 225);
+}
+.form-modal{
+    display: flex;
+    flex-direction: column;
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form-buttons{
+    display: flex;
+    align-self: flex-end;
+}

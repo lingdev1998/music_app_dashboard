@@ -1,0 +1,22 @@
+.event-form{
+    flex-basis: 30%;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+    align-self: flex-start;
+    /* padding: 0.5rem; */
+}
+.red-background{
+    background: red !important;
+    color: #fff;
+}
+.teal-background{
+    background: teal !important;
+    color: #fff;   
+}
+.e-prabeen{
+    background: yellow !important;
+    color: #fff;       
+}
